@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+     
+    
+    
+}
+
+.container{
+     margin: 0 auto;
+     width: 600px;
+     background: #F5F5F5;
+    
+    
+}
+.banner{
+    background-image: url("photo-burger.avif");
+    background-size: cover;
+    height: 300px;
+    color: white;
+    
+  
+    
+}
+.banner-header{
+    margin-bottom: 0px;
+    padding-top: 200px;
+    padding-left: 47px;
+    
+}
+.banner-paragraph{
+    margin-top: 0px;
+    padding-left: 47px;
+}
+
+
+.menu{
+    display: flex;
+}
+.itemsid{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+     
+    
+    
+}
+.items{
+    margin-left: 15px;
+    margin-top: 30px;
+
+}
+
+.name{
+    margin-bottom: 4px;
+}
+
+.ingredients{
+ 
+   margin-bottom: 4px;
+   margin-top: 0px;
+    
+}
+
+.emoji{
+   font-size: 300%;
+   margin-bottom: 0px;
+}
+.price{
+  
+    margin-bottom: 4px;
+    margin-top: 0px;
+}
+
+
+.btn{
+     
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+    margin-right: 20px;
+   
+}
+
+.order-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.my-order{
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+    background-color: brown;
+     
+}
+.remove-btn{
+    margin-left: 5px;
+    
+}
+.choose-menu{
+    display:none;
+    text-align: center;  
+}
+.choose, h3{
+    padding-bottom: 20px;
+}
+
+
+.total-price{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid brown;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.completeorder-btn{
+    margin: 10px 20px;
+    padding: 0.02px 0.5px;
+    background-color: brown;
+    color: white;
+
+    
+}
+.customers-detail{
+    border: 1px solid blue;
+    width: 350px;
+    height: 320px;
+    background: white;
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    margin: auto;
+   
+}
+
+form{
+    
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+     
+
+     
+}
+
+input{
+    margin: 8px 10px;
+    padding: 10px 130px 10px 4px;
+
+}
+.pay-btn{
+     margin-top: 30px;
+    padding: 10px 150px;
+    background-color: brown;
+    color: white;
+    
+    
+}
+
+.thankyou-text{
+    display: none;
+    text-align: center;
+     
+}
+
+span{
+    color: palegreen;
+}
+
+.purchase{
+    margin: 10px 40px;
+    padding: 10px 1px;
+    background: brown;
+    color: white
+}
+
+
+
+
+
